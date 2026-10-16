@@ -1,0 +1,20 @@
+# Core
+sentence-transformers
+chromadb
+pandas
+python-dotenv
+
+# Documents
+pypdf
+
+# Evaluation
+ragas
+
+# LLM client
+openai
+
+# Dashboard
+streamlit
+
+# Testing
+pytest

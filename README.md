@@ -11,7 +11,7 @@ A Python toolkit for evaluating the quality, speed, and cost of RAG systems.
 
 ## Status
 
-Day 1: project structure
+Day 2: dependencies and config template
 
 ## Planned features
 
@@ -22,4 +22,32 @@ Day 1: project structure
 - [ ] Config comparison for chunk size, reranker, and hybrid search
 - [ ] Streamlit dashboard
 
-## Setup: coming soon
+## Setup
+
+Run these commands from the project folder in PowerShell on Windows.
+
+1. Create a virtual environment:
+
+   ```powershell
+   python -m venv venv
+   ```
+
+2. Activate it:
+
+   ```powershell
+   .\venv\Scripts\Activate.ps1
+   ```
+
+3. Install the dependencies:
+
+   ```powershell
+   pip install -r requirements.txt
+   ```
+
+4. Copy the config template:
+
+   ```powershell
+   Copy-Item .env.example .env
+   ```
+
+5. Open `.env` and fill in your API key and model name. Adjust the other values as needed.
