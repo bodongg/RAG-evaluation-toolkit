@@ -11,7 +11,7 @@ A Python toolkit for evaluating the quality, speed, and cost of RAG systems.
 
 ## Status
 
-Day 3: document loader
+Day 4: configurable chunking
 
 ## Planned features
 
