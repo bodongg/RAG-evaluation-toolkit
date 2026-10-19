@@ -11,7 +11,7 @@ A Python toolkit for evaluating the quality, speed, and cost of RAG systems.
 
 ## Status
 
-Day 4: configurable chunking
+Day 5: vector store
 
 ## Planned features
 
